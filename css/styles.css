@@ -3,13 +3,13 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	font-family: sans-serif;
 }
 
 .MenuTitle
 {
 	text-align: center;
 	font-weight: bold;
-	font-family: sans-serif;
 	font-size: 2em;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -31,7 +31,6 @@
 .Course
 {
 	clear:right;
-	font-family: sans-serif;
 	font-size: 1em;
 	background-color: darkgray;
 	border-width: 1px;
@@ -58,7 +57,7 @@
 .CourseDescription
 {
 	clear: right;
-	margin: 5px;
+	padding: 10px;
 }
 
 #Course1.CourseTitle
@@ -69,6 +68,7 @@
 #Course2.CourseTitle
 {
 	background-color: crimson;
+	color: white;
 }
 
 #Course3.CourseTitle
@@ -76,18 +76,18 @@
 	background-color: lightyellow;
 }
 
-@media(min-width: 1366px)
+@media(min-width: 1200px)
 {
-	section
+	.GridElement
 	{
 		float: left;
 		width: 33.3%;
 	}
 }
 
-@media(min-width: 799px) and (max-width: 1365px)
+@media(min-width: 768px) and (max-width: 1199px)
 {
-	section
+	.GridElement
 	{
 		float: left;
 		width: 50%;
