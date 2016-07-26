@@ -60,18 +60,18 @@
 	padding: 10px;
 }
 
-#Course1.CourseTitle
+#CourseTitle1
 {
 	background-color: mistyrose;
 }
 
-#Course2.CourseTitle
+#CourseTitle2
 {
 	background-color: crimson;
 	color: white;
 }
 
-#Course3.CourseTitle
+#CourseTitle3
 {
 	background-color: lightyellow;
 }
@@ -93,7 +93,7 @@
 		width: 50%;
 	}
 	
-	#Course3.GridElement
+	#Course3
 	{
 		width: 100%;
 	}
